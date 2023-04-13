@@ -277,7 +277,7 @@ if (firstName.length > lastName.length) {
 let myAge = 250;
 let yourAge = 25;
 
-console.log("I am ${myage - yourAge} years older than you");
+console.log(`I am ${myAge - yourAge} years older than you`);
 /*
    
    13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
@@ -299,7 +299,7 @@ let your_age = now.getFullYear() - birthYear;
 if (your_age >= 18) {
   console.log("You are old enough to drive");
 } else {
-  console.log("You will be allowed to drive after ${18 - your_age} years");
+  console.log(`You will be allowed to drive after ${18 - your_age} years`);
 }
 /*
    14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
